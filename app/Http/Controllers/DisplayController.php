@@ -81,6 +81,7 @@ class DisplayController extends Controller
             ]
 
         ];
+
         return view('display.main', ['display'=> $display]);
     }
 }

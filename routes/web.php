@@ -14,7 +14,6 @@ use App\Http\Controllers\DisplayController;
 | contains the "web" middleware group. Now create something great!
 |
 */
-
 Route::get('/', [DisplayController::class, 'main']);
 
 
